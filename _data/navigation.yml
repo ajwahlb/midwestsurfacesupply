@@ -1,0 +1,21 @@
+- title: "Company"
+  href: "/company/"
+
+- title: "Vendors"
+  href: "/vendors/"
+
+- title: "LivingStone"
+  href: "/livingstone/"
+
+- title: "Colors"
+  subcategories:
+    - subtitle: "LivingStone Colors"
+      subhref: "/colors/livingstone/"
+    - subtitle: "Vadara Colors"
+      subhref: "/colors/vadara/"
+
+- title: "Gallery"
+  href: "/gallery"
+
+- title: "Contact Us"
+  href: "/contact-us/"

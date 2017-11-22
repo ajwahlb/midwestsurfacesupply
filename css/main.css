@@ -1,0 +1,105 @@
+
+/* NAVIGATION BAR
+ -------------------------------------------------- */
+
+nav.navbar{
+    background-color: #fff;
+    display: block;
+}
+
+/* GENERAL STYLES 
+ -------------------------------------------------- */
+body{
+    background-color: #f8f9fa;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .container{
+	padding-top: 0 !important;
+}
+.container:first-of-type{
+	padding-top: 2vw;
+}
+.parallax-window{
+    min-height: 50vw;
+    background: transparent;
+}
+
+.container-fluid{
+	padding:0;
+	flex: 1 0 auto;
+}
+.container.mss-page{
+	padding-bottom: 6vw;
+}
+.row{
+	margin-bottom: 3vw;
+}
+.modal-dialog {
+    max-width: 80%;
+}
+.chip{
+	padding-bottom: 20px;
+}
+.chip h5.light,
+.chip h5.dark{
+	position: absolute;
+	margin: 5px;
+    padding: 5px;
+    font-weight: 400;
+}
+.chip h5.light{
+	color: #fff;
+	border: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, .4);
+}
+.chip h5.dark{
+	color: #000;
+	border: 1px solid #999;
+	background-color: rgba(255, 255, 255, .4);
+}
+.series{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 2vw;
+	margin-bottom: 2vw;
+}
+.series:last-child{
+	border-bottom: none;
+	padding-bottom: 2vw;
+}
+.form-group.row{
+	margin-bottom: 1rem;
+}
+.carousel-indicators li{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
+.center{
+	text-align: center;
+}
+.hpFormBg{
+	background-color: rgba(255, 255, 255, .9);
+	margin: 2vw 0 4vw;
+}
+.contact-form{
+	padding: 5vw 0;
+}
+.contact-bg{
+	background: url(/images/contact-bg.jpg)no-repeat top center/cover;
+}
+@media (max-width: 575px) and (min-width: 1px){
+	.form-group.row{
+		margin:10px;
+	}
+}
+.applicationForm{
+	padding:10vw 15px;
+}
+
+/* FOOTER */
+footer.site-footer{
+	background-color: #fff;
+	padding: 15px;
+}

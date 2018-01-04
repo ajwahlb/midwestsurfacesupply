@@ -17,7 +17,7 @@ title: Midwest Surface Supply
 email: info@MidwestSurfaceSupply.com
 description: >- # this means to ignore newlines until "baseurl:"
   Midwest Surface Supply is a streamlined, customer service driven company providing the best surface and interior cladding material available.
-url: "http://www.midwestsurfacesupply.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ajwahlb.github.io/midwestsurfacesupply/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
